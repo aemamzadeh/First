@@ -35,3 +35,4 @@ F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.
 F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Teacher_MVC.pdb
 F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Teacher_MVC.genruntimeconfig.cache
 F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Teacher_MVC.csproj.CopyComplete
+F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
