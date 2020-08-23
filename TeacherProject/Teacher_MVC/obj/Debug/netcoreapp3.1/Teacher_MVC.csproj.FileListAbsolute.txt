@@ -111,3 +111,5 @@ F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.
 F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Teacher_MVC.genruntimeconfig.cache
 F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Teacher_MVC.csprojAssemblyReference.cache
 F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Components\Articles\_Articles.cshtml.g.cs
+F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Footer.cshtml.g.cs
+F:\NetCoreProjects\repos\First\TeacherProject\Teacher_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Header.cshtml.g.cs
