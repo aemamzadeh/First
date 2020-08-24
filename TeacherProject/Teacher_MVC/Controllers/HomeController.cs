@@ -24,9 +24,16 @@ namespace Teacher_MVC.Controllers
         }
         
         [HttpPost]
-        public JsonResult Contact(Contact form)
+        public IActionResult Contact(Contact form)
         {
-            return Json(Ok());
+            if (!ModelState.IsValid)
+            {
+                ViewBag.error = "اطلاعات وارد شده معتبر نمیباشد. دوباره تلاش نمایید.";
+                return View(form);
+            }
+            //return RedirectToAction("Index");
+            ViewBag.success = "پیام شما با موفقیت ارسال شد.";
+            return View();
         }
 
         [HttpGet]
