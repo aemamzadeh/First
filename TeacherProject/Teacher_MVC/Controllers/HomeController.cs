@@ -22,10 +22,18 @@ namespace Teacher_MVC.Controllers
         {
             return View();
         }
+        
+        [HttpPost]
+        public JsonResult Contact(Contact form)
+        {
+            return Json(Ok());
+        }
 
+        [HttpGet]
         public IActionResult Contact()
         {
-            return View();
+            var model = new Contact();
+            return View(model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
