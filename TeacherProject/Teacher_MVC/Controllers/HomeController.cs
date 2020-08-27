@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic.CompilerServices;
+using Teacher_MVC.Data;
 using Teacher_MVC.Models;
 
 namespace Teacher_MVC.Controllers
@@ -8,21 +10,16 @@ namespace Teacher_MVC.Controllers
     public class HomeController : Controller
     {
 
-        public HomeController()
-        {
+        //public HomeController()
+        //{
 
-        }
+        //}
 
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-        
         [HttpPost]
         public IActionResult Contact(Contact form)
         {
@@ -41,6 +38,12 @@ namespace Teacher_MVC.Controllers
         {
             var model = new Contact();
             return View(model);
+        }
+
+        public IActionResult ProjectDetails(long id)
+        {
+            var projectd = ProjectsData.GetProject1By(id);
+            return View(projectd);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

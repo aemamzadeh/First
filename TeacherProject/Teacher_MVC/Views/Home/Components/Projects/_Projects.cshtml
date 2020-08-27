@@ -4,7 +4,7 @@
     <div class="container">
         <h2 class="section-title font-weight-bold mb-5">خاص ترین پروژه ها</h2>
         <div class="row">
-            @foreach (var project in Model)
+            @foreach (var projecty in Model)
             {
             <div class="col-md-6 mb-5">
                 <div class="card project-card">
@@ -15,14 +15,14 @@
                         <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">
-                                    <a href="project.html" class="theme-link">
-                                        @project.Id: @project.Name
+                                    <a asp-controller="Home" asp-action="ProjectDetails" asp-route-id="@projecty.Id" class="theme-link">
+                                        @projecty.Id: @projecty.Name
                                     </a>
                                 </h5>
                                 <p class="card-text">
-                                        @project.Description
+                                        @projecty.Description
                                 </p>
-                                <p class="card-text"><small class="text-muted">Client: @project.Client</small></p>
+                                <p class="card-text"><small class="text-muted">Client: @projecty.Client</small></p>
                             </div>
                         </div>
                     </div>

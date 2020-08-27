@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -17,5 +18,7 @@ namespace Teacher_MVC.Models
         [MaxLength(100)]
         public string Message { get; set; }
         public string Service { get; set; }
+        public SelectList  Services { get; set; }
+
     }
 }

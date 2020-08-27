@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -19,5 +20,6 @@ namespace Teacher_MVC.Models
             Client = client;
             Description = description;
         }
+
     }
 }
